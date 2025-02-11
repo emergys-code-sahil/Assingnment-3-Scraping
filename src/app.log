@@ -1,0 +1,17 @@
+2025-02-11 11:40:29,181 - ERROR - Error in function main: Query in empty or invalid!
+2025-02-11 11:41:53,819 - ERROR - Error in function main: Query in empty or invalid!
+2025-02-11 11:50:20,965 - DEBUG - Starting new HTTPS connection (1): www.ndtv.com:443
+2025-02-11 11:50:21,196 - DEBUG - https://www.ndtv.com:443 "GET /search?searchtext=trump HTTP/1.1" 200 None
+2025-02-11 11:50:21,619 - DEBUG - Starting new HTTPS connection (1): www.ndtv.com:443
+2025-02-11 11:50:21,760 - DEBUG - https://www.ndtv.com:443 "GET /world-news/us-china-tariff-war-hits-gm-ford-mercedes-suvs-7683522 HTTP/1.1" 200 None
+2025-02-11 11:50:49,235 - DEBUG - Starting new HTTPS connection (1): www.bbc.com:443
+2025-02-11 11:50:49,358 - DEBUG - https://www.bbc.com:443 "GET /search?q=california+fires HTTP/1.1" 302 0
+2025-02-11 11:50:49,363 - DEBUG - Resetting dropped connection: www.bbc.com
+2025-02-11 11:50:51,284 - DEBUG - https://www.bbc.com:443 "GET /search?q=california+fires&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTczOTI1NTE0OSwibmJmIjogMTczOTI1NDc4OSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEY2FsaWZvcm5pYSUyQmZpcmVzIn0.-GawdJFUWCWXRDSj7HiTq8678sXoBHe1bnP_djdxdy4 HTTP/1.1" 200 33654
+2025-02-11 11:50:51,315 - DEBUG - Starting new HTTPS connection (1): www.bbc.com:443
+2025-02-11 11:50:53,486 - DEBUG - https://www.bbc.com:443 "GET /news/articles/c4g334eppm7o HTTP/1.1" 200 50862
+2025-02-11 11:51:04,054 - DEBUG - Starting new HTTPS connection (1): www.bbc.com:443
+2025-02-11 11:51:04,167 - DEBUG - https://www.bbc.com:443 "GET /search?q=calhbwhqudd1 HTTP/1.1" 302 0
+2025-02-11 11:51:04,170 - DEBUG - Resetting dropped connection: www.bbc.com
+2025-02-11 11:51:04,817 - DEBUG - https://www.bbc.com:443 "GET /search?q=calhbwhqudd1&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTczOTI1NTE2NCwibmJmIjogMTczOTI1NDgwNCwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEY2FsaGJ3aHF1ZGQxIn0.rrjO_DARK_VVE0cwpgeQlsQ_ffAv4jAPf64doLHJ8EI HTTP/1.1" 200 26843
+2025-02-11 11:51:04,844 - ERROR - Error in function extracting_BBC: 'NoneType' object has no attribute 'find'
